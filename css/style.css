@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#ffffff;
+	font-size: 16px;
+	background-color: #3F4567;
+	
+}
+
+header{
+	
+	padding: 14px 0;
+    margin: -15px;
+    
+}
+
+
+#hero{
+    padding: 80px 0;
+    }
+
+
+#fondo-a{
+	color: #ffff;
+	padding: 200px 0px;
+	position: center;
+	background-image: url( "../img/23.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+    
+	
+	
+}
+	
+
+#comencemos{
+	padding: 40px 0px;
+
+	}
+	
+#boton{
+	text-align: center;
+	position: center;
+	padding-left: 800px;
+	
+	}
+
+
+#lugares{
+	text-align: center;
+	padding: 50px 0px;
+	
+}
+
+
+#infografia{
+	text-align: center;
+	color: #F8F4C2;
+}
+
+
+.btn-rectangulo{
+	background-color: transparent;
+	color: aliceblue;
+	
+}
+
+
+foto{
+	´position: relative;
+}
+
+.overlay{
+	position: absolute;
+	top: 25%;
+	left: 0;
+	padding: 30px 10px; 
+	width: 100%;
+	background-color:rgba(0,0,0,0.70);
+	opacity: 0;
+	transition: all 0.3s easy-in-out;
+}
+
+.foto:hover .overlay{
+	opacity: 1;
+	transition: all 0.3s easy-in-out; 
+}
+
+.bg-over-blue{
+	background-color: rgba(10,12,50,0.80)
+}
+
+
+
+footer{
+	text-align: center;
+	background-image: url( "../img/Sintítulo-1.png");
+	padding: 14px 0;
+    margin: -305px;
+	background-size: 10px;
+	
+	color: #7184AB;
+	
+	
+}
+
+#fondo-a{
+	background-size: -10px;
+
+
+#redes{
+	color: #A4AAB3;
+	text-align: center;
+	padding: 40px 0px;
+	
+	}
